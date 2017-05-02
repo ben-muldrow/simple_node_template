@@ -5,7 +5,16 @@
     <body>
         <div>
             <h2>Welcome to Shodan Test</h2>
-            <p>I hope shodan does not find my api running on a local port</p>
+            <p>Tell me about yourself</p>
+            <form action="/submitUser" method="post" name="form" id="form">
+                <input type="text" id="name" name="name" placeholder="Enter your Name"/>
+                <br>
+                <input type="number" id="age" name="age" placeholder="Age"/>
+                <br>
+                <input type="email" id="email" name="email" placeholder="email@email.com"/>
+                <br>
+                <input type="submit"/>
+            </form>
         </div>
     </body>
 </html>
